@@ -1,0 +1,20 @@
+# Local experiment state and credentials
+.agentlab/
+.env
+.env.*
+!.env.example
+
+# Development environments and generated output
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+node_modules/
+dist/
+coverage/
+.DS_Store
+
+# Isolated checkouts
+.worktrees/
