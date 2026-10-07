@@ -4,11 +4,15 @@ Agent Lab：由 Codex 主持的可插拔 Agent 技术实验平台。
 
 用户提出研究问题，Codex 制定并执行实验，平台保存配置、运行记录、指标和原始证据，供用户复核与比较。研究对象包括模型 API、记忆管理、上下文工程、MCP 工具和 Agent Harness。
 
-当前采用 **Codex 插件 + 本地实验服务 + CLI/MCP + Web 看台** 的路线。现阶段已完成设计和调研，代码实现与插件安装尚未完成。
+当前采用 **Codex 插件 + 本地实验服务 + CLI/MCP + Web 看台** 的路线。现阶段交付设计、公共契约和实施计划；代码实现与插件安装尚未完成。
 
 ## 设计与调研
 
 - [Codex 插件版规格](docs/superpowers/specs/2026-10-07-agent-lab-codex-plugin-design.md)
+- [公共契约：规格、状态、证据和指标](docs/superpowers/specs/2026-10-07-agent-lab-contracts.md)
+- [插件首版交付路线图](docs/superpowers/plans/2026-10-07-agent-lab-delivery-roadmap.md)
+- [首个子项目规格：实验与证据内核](docs/superpowers/specs/2026-10-07-agent-lab-core-design.md)
+- [首个子项目详细实施计划](docs/superpowers/plans/2026-10-07-agent-lab-core.md)
 - [完整平台蓝图](docs/superpowers/specs/2026-10-07-agent-lab-platform-design.md)
 - [Agent 前沿技术调研](research/agent-frontier-2026-10-07.md)
 - [交互稿生成记录](docs/superpowers/specs/2026-10-07-agent-lab-image-prompts.md)
